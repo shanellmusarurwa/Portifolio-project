@@ -90,6 +90,12 @@ p {
 .project-desc {
   padding: 120px 60px;
 }
+.logo {
+  max-height: 40px;
+}
+.active {
+  color: var(--primary-color) !important;
+}
 @media (max-width: 960px) {
   h1 {
     font-size: 44px;
