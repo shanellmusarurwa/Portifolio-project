@@ -80,7 +80,13 @@ p {
   color: #fff;
   font-size: 18px;
   line-height: 27px;
-  padding: 15px 30px;
+  padding: 14px 30px;
+  transition: all 100ms ease-in-out;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: #6934e9;
+  color: #fff;
 }
 .btn-branding {
   color: var(--primary-color);
